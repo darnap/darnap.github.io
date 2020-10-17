@@ -1,0 +1,37 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#controls {    
+    flex: 0 0 15em;
+    background-color: darkkhaki;
+    overflow: hidden;
+}
+#main {
+    flex: 1 0 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: black;
+    overflow: hidden;
+}
+
+#scene {
+    object-fit: contain;
+    width: 100%;
+    flex: 1;
+}
+
+#logArea {
+    flex: 1 0 400px;
+    background-color: white;
+    color: black;
+}
